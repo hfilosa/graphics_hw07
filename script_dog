@@ -1,0 +1,49 @@
+#body
+push
+yrotate
+30
+xrotate
+30
+translate
+300 300 0
+box
+0 0 0 200 100 100
+#tail
+push
+translate
+0 0 -50
+zrotate
+150
+box
+0 0 0 100 20 20
+#back legs
+pop
+push
+translate
+10 -100 10
+box
+0 0 0 20 70 20
+translate
+0 0 -120
+box
+0 0 0 20 70 20
+#front legs
+translate
+160 0 0
+box
+0 0 0 20 70 20
+translate
+0 0 120
+box
+0 0 0 20 70 20
+#head
+pop
+push
+translate
+200 0 -50
+sphere
+50 50 50
+display
+save
+doge.jpg
+quit
