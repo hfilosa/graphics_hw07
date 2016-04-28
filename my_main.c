@@ -128,10 +128,7 @@ void my_main( int polygons ) {
       display(t);
       break;
     case SAVE:
-      //Save doesn't work for some reason :(
-      printf("%s\n",op[i].op.save);
-      printf("%s\n",op[i].op.save.p);
-      //save_extension(t,op[i].op.save.p);
+      save_extension(t,op[i].op.save.p->name);
       break;
     }
   }

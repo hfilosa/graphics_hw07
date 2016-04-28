@@ -28,3 +28,4 @@ move 200 0 -50
 sphere 50 50 0 50
 display
 save doge.png
+quit
